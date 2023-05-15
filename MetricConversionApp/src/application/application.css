@@ -1,0 +1,72 @@
+
+/****************************************************************************************************
+ * 
+ *                                        CSS Page
+ *                          This gives the program its visuals.
+ * 
+ *                                  By: Travis Pearson
+ *                                Finished on 04/20/2023
+ * 
+ ***************************************************************************************************/
+
+/*background */
+.root {
+	-fx-background-color: linear-gradient(to top right,#0A0A0A,#61055A 35%, #A20EAA,#61055A 75%, #0A0A0A);
+}
+
+#headerLabel, #outputLabel, #convertLabel, #toLabel, #enterLabel {
+	-fx-text-fill: #76BC81;
+}
+
+/*menus and menu labels */
+#tempMenu {
+	-fx-background-color: linear-gradient(to top left, #50C9CE, #D0CCD0 60%, #50C9CE );
+}
+
+#weightMenu {
+	-fx-background-color: linear-gradient(to bottom left, #50C9CE, #D0CCD0 35%, #50C9CE);
+}
+
+#lengthMenu {
+	-fx-background-color: linear-gradient(to top right, #50C9CE, #D0CCD0 70%, #50C9CE);
+}
+
+#areaMenu {
+	-fx-background-color: linear-gradient(to bottom right, #50C9CE, #D0CCD0 85%, #50C9CE);
+}
+
+#volumeMenu {
+	-fx-background-color: linear-gradient(to top left, #50C9CE, #D0CCD0 20%, #50C9CE);
+}
+
+#temperatureLabel, #weightLabel, #lengthLabel, #areaLabel, #volumeLabel {
+	-fx-text-fill: #E59461;
+}
+
+/*convert output and to output labels */
+#convertOutputLabel, #toOutputLabel {
+	-fx-text-fill: #E59461;
+}
+
+/*input text field -fx-background-color: #E59461;*/
+#inputTextField {	
+	-fx-background-color: #FE5F55;
+}
+
+/*submit and reset buttons */
+#submitButton {
+	-fx-background-color: linear-gradient(to top right,#D0CCD0, #50C9CE 60%,#A20EAA 90%,#D0CCD0);
+}
+
+#resetButton {
+	-fx-background-color: linear-gradient(to bottom left,#D0CCD0 5%, #50C9CE 30%,#A20EAA 50%,#D0CCD0);
+}
+#submitButton, #resetButton {
+	-fx-border-radius: 10px;
+}
+#submitButton:hover, #resetButton:hover {
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;	
+}
+
+
