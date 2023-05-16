@@ -70,14 +70,15 @@ public class MainController implements Initializable {
 	private ImageView icons;
 	@FXML
 	private Image icon = new Image(getClass().getResourceAsStream("images/weight.png"));
-	@FXML
-	private ImageView swapImage;
+	private ImageView swapImage = new ImageView(new Image(getClass().getResourceAsStream("./images/swap.png")));
 
 	// Buttons
 	@FXML
 	private Button submitButton;
 	@FXML
 	private Button resetButton;
+	@FXML
+	private Button swapButton;
 
 	// Menus with all conversion methods
 	@FXML
@@ -105,6 +106,13 @@ public class MainController implements Initializable {
 		// the menu actions methods.
 		//
 		// ***************************************************************************************************
+		
+		//Setting the switch icon on the button and setting size
+		
+		swapImage.setFitWidth(80);
+		swapImage.setFitHeight(80);
+		swapButton.setGraphic(swapImage);
+		
 		tempMenu.setItems(FXCollections.observableArrayList("Fahrenheit to Celsius", "Fahrenheit to Kelvin",
 				"Celsius to Fahrenheit", "Celsius to Kelvin", "Kelvin to Fahrenheit", "Kelvin to Celsius"));
 

@@ -37,12 +37,12 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></ComboBox>
-      <Label fx:id="convertLabel" layoutX="67.0" layoutY="203.0" prefHeight="23.0" prefWidth="151.0" text="Convert From:">
+      <Label fx:id="convertLabel" layoutX="115.0" layoutY="203.0" prefHeight="23.0" prefWidth="151.0" text="Convert From:">
          <font>
             <Font name="SansSerif Bold Italic" size="20.0" />
          </font>
       </Label>
-      <Label fx:id="toLabel" layoutX="413.0" layoutY="203.0" prefHeight="23.0" prefWidth="130.0" text="Convert To:">
+      <Label fx:id="toLabel" layoutX="460.0" layoutY="203.0" prefHeight="23.0" prefWidth="46.0" text="To:">
          <font>
             <Font name="SansSerif Bold Italic" size="20.0" />
          </font>
@@ -51,12 +51,12 @@
          <image>
             <Image url="@images/weight.png" />
          </image></ImageView>
-      <Label fx:id="toOutputLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="533.0" layoutY="203.0" prefHeight="23.0" prefWidth="190.0" text="ex: Pounds">
+      <Label fx:id="toOutputLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="490.0" layoutY="203.0" prefHeight="23.0" prefWidth="190.0" text="ex: Pounds">
          <font>
             <Font name="SansSerif Bold" size="20.0" />
          </font>
       </Label>
-      <Label fx:id="convertOutputLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="203.0" layoutY="203.0" prefHeight="23.0" prefWidth="190.0" text="ex: Kilograms">
+      <Label fx:id="convertOutputLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="246.0" layoutY="203.0" prefHeight="23.0" prefWidth="190.0" text="ex: Kilograms">
          <font>
             <Font name="SansSerif Bold" size="20.0" />
          </font>
@@ -71,14 +71,6 @@
             <Font name="SansSerif Bold" size="36.0" />
          </font>
       </Label>
-      <ImageView fx:id="swapImage" fitHeight="66.0" fitWidth="68.0" layoutX="595.0" layoutY="308.0" onMouseClicked="#swap" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@images/swap.png" />
-         </image>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
-      </ImageView>
       <Label fx:id="enterLabel" layoutX="316.0" layoutY="300.0" prefHeight="27.0" prefWidth="230.0" text="Enter Amount Below ↓">
          <font>
             <Font name="SansSerif Bold Italic" size="20.0" />
@@ -121,6 +113,11 @@
          <font>
             <Font name="SansSerif Bold" size="18.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="swapButton" layoutX="585.0" layoutY="288.0" mnemonicParsing="false" onAction="#swap" prefHeight="80.0" prefWidth="80.0">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>

@@ -61,7 +61,12 @@
 #resetButton {
 	-fx-background-color: linear-gradient(to bottom left,#D0CCD0 5%, #50C9CE 30%,#A20EAA 50%,#D0CCD0);
 }
-#submitButton, #resetButton {
+
+#swapButton {
+	-fx-background-color: linear-gradient(to bottom right,#D0CCD0 5%, #50C9CE 30%,#A20EAA 50%,#D0CCD0);
+}
+
+#submitButton, #resetButton, #swapButton{
 	-fx-border-radius: 10px;
 }
 #submitButton:hover, #resetButton:hover {
